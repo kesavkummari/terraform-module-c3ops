@@ -283,7 +283,7 @@ output "web_sg" {
 
 resource "aws_key_pair" "cb_shared_services_sshkeys" {
   key_name   = "cb_shared_services_sshkeys"
-  public_key = ""
+  public_key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIc37aUS+EpM5iPunzjvr+Mb5BKEWzxBTKtRIJN4iCR2 ck@ck.local"
 
 }
 output "keypair" {

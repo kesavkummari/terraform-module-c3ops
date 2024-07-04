@@ -5,7 +5,7 @@ variable "region" {
 }
 
 variable "aws_account_id" {
-  default = "420815905200"
+  default = "498499494949"
 }
 
 variable "cidr_block" {

@@ -3,7 +3,7 @@ variable "region" {
 }
 
 variable "aws_account_id" {
-  default = "420815905200"
+  default = "48484848484"
 }
 
 variable "environment" {
@@ -20,5 +20,5 @@ variable "global_tags" {
 }
 
 variable "ec2_policy_for_ssm" {
-  default = "arn:aws:iam::420815905200:role/c3ops_ssm"
+  default = "arn:aws:iam::4894848484848:role/c3ops_ssm"
 }
